@@ -1,12 +1,90 @@
-body {background: linear-gradient(to right,rgb(156, 152, 174),rgb(82, 65, 65),rgb(136, 155, 162));font-family: sans-serif;text-align: center;justify-content: center;}
-caption {caption-side: bottom;text-align: left;margin-top: 10px;font-style: italic;font-size: 14px;color: rgb(0, 0, 0);font-size: 20px;box-shadow: 10px 10px 10px rgb(0, 0, 0);border-radius: 10px 10px;background-color: rgb(230, 187, 187);width: 150px;}
-h1 {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 30px;color: rgb(255, 0, 0);}
-h2 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 30px;color: rgb(255, 255, 255);}
-img {border-radius: 10px 10px;box-shadow: 10px 10px 10px white;}
-p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 15px;color: white;justify-content: center;}
-h3 {font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: red;}
-ul {display: flex;flex-direction: row;width: 200px;margin: auto;border-radius: 10px 10px;box-shadow: 10px 10px 10px rgb(0, 0, 0);background-color: azure;padding-left: 10px;}
-.margem{background-color: black;box-shadow: 10px 10px 10px white;border-radius: 10px 10px;flex-direction: column;width: 100px;margin: auto;}
-ol {display: flex;flex-direction: row;width: 200px;margin: auto;border-radius: 10px 10px;box-shadow: 10px 10px 10px rgb(0, 0, 0);background-color: azure;padding-left: 10px;}
-a {color: red;background-color: white;
-    box-shadow: 10px 10px 10px rgb(140, 133, 133);border-radius: 10px 10px;font-family: Georgia, 'Times New Roman', Times, serif;}
+body {
+    background: linear-gradient(to right, rgb(89, 82, 121), rgb(82, 65, 65), rgb(73, 122, 141));
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: left;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    border-radius: 10px 10px;
+    background-color: rgb(230, 187, 187);
+    width: 150px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    border-radius: 10px 10px;
+    box-shadow: 10px 10px 10px white;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px 10px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    background-color: azure;
+    padding-left: 10px;
+}
+
+.margem {
+    background-color: black;
+    box-shadow: 10px 10px 10px white;
+    border-radius: 10px 10px;
+    flex-direction: column;
+    width: 100px;
+    margin: auto;
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px 10px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    background-color: azure;
+    padding-left: 10px;
+}
+
+a {
+    color: red;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(140, 133, 133);
+    border-radius: 10px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main {background-color: black;box-shadow: 10px 10px 10px white;border-radius: 10px 10px;margin: auto;width: 300px;padding: 10px;}
